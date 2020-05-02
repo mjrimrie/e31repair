@@ -3,6 +3,6 @@ services:
   e31techinfo:
     build: .
     volumes:
-      - ./html:/user/share/nginx/html
+      - ./html:/usr/share/nginx/html
     ports:
       - 8080:80
